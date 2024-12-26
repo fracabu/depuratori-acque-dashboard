@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtuale
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# File temporanei di geocoding
+data/failed_geocoding.csv
+data/failed_geocoding_campania.csv
+
+# File di dati grezzi e intermedi
+data/Dataset_Normalizzato_ISTAT_Depuratori_Acque.csv
+data/depuratori_nazionale.csv
+data/depuratori_con_coordinate.csv
+data/Elenco_impianti_depurazione_Veneto_agg_gen2024 (1).csv
+data/Elenco_impianti_depurazione_Veneto_normalizzato.csv
+
+# Mantieni solo i file essenziali per la Campania
+!data/depuratori_campania_con_coordinate.csv
+!data/Elenco_impianti_depurazione_Campania_normalizzato.csv
+!data/Elenco_impianti_depurazione_Campania_agg_gen2024.csv
+!data/stato_aggiornamento_archivio.csv
+
+# File di media
+*.jpeg
+*.jpg
+*.png
